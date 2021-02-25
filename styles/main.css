@@ -1,0 +1,145 @@
+/*
+* {
+    margin: 0px;
+    padding: 0px;
+}
+*/
+
+/***************************** body tags*****************************/
+body{
+    font-family: Arial, Helvetica,sans-serif;
+    font-size:100%;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0px auto 10px;
+    border: 5px solid #4682b4;
+    box-shadow: 0px 0px 20px 5px black;
+}
+
+
+/***************************** main tags*****************************/
+main{
+    padding: 20px;
+    clear: both;
+}
+
+/***************************** header tags*****************************/
+header{
+    border-bottom: 5px solid steelblue;
+    background-image: linear-gradient(rgba(255,255,255,1),rgba(176,196,222,1));    
+}
+
+header img{
+    float:left;
+    margin: 0px 20px;
+}
+
+header h2{
+    font-size: 250%;
+    color: steelblue;
+    text-shadow: 4px 4px 4px steelblue;
+    font-style: italic;
+   
+}
+
+header h3{
+    font-size: 150%;
+    
+}
+
+/***************************** heading tags*****************************/
+h1{
+    font-size: 150%;
+    margin-top: 0px;
+}
+
+/***************************** section tags*****************************/
+section h2, aside h2{
+    font-size: 130%;
+}
+
+section h3{
+    font-size: 125%;
+    margin-bottom: 0px;
+}
+
+section p{
+    margin: 5px 0px
+
+}
+
+/***************************** section links *****************************/
+section a:link {
+    color: maroon;
+}
+section a:visited {
+    color:maroon;
+}
+section a:hover {
+    color:steelblue;
+}
+section a:active {
+    color: steelblue;
+}
+
+/***************************** aside tags *****************************/
+aside a{
+    font-weight: bold;
+}
+
+aside h2{
+    color:maroon;
+    margin-top:0;
+}
+
+/***************************** aside links *****************************/
+aside a:link {
+    color: steelblue;
+}
+aside a:visited {
+    color:steelblue;
+}
+aside a:hover {
+    color:maroon;
+}
+aside a:active {
+    color: maroon;
+} 
+
+/***************************** footer tags*****************************/
+footer{
+    text-align: center;
+    color: white;
+    font-size: 80%;
+    font-weight: bold;
+    background-color: steelblue;
+    border: solid steelblue;
+    font-variant: small-caps;
+    clear: both;
+}
+
+/***************************** list items tags*****************************/
+li{
+    margin-top: 7px;
+}
+
+/***************************** list items tags*****************************/
+blockquote{
+    border-left: 3px solid maroon;
+    padding: 5px;
+    background-color: rgba(176,196,222, .75);
+}
+
+/***************************** class sidebar*****************************/
+.sidebar{
+    float: left;
+    width:30%;
+    
+}
+
+/***************************** class homesection*****************************/
+.homesection{
+    width:68%;
+    float:right;
+    margin-bottom: 20px;
+}
